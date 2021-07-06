@@ -5,7 +5,7 @@ import styles from '../../styles/Home.module.css';
 type Props = {
   title?: string;
 };
-
+const aaa = 1;
 export default function Home({title = 'React Avançado'}: Props) {
   return (
     <div className={styles.container}>
