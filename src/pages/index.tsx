@@ -4,6 +4,7 @@ import styles from '../../styles/Home.module.css';
 
 type Props = {
   title?: string;
+  a?: string;
 };
 
 export default function Home({title = 'React Avançado'}: Props) {
