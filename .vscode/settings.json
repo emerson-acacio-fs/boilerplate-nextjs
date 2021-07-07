@@ -5,4 +5,5 @@
     "source.fixAll.eslint": true
   },
   "javascript.suggest.autoImports": true,
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"]
 }

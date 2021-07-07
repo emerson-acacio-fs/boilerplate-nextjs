@@ -1,34 +1,30 @@
-import {DefaultTheme} from 'styled-components';
-
-declare module 'styled-components' {
-  export interface DefaultTheme {
-    backgroundColor: string;
-    primary: {
-      color1: string;
-      color2: string;
-      color3: string;
-      color4: string;
-      color5: string;
-      color6: string;
-      color7: string;
-    };
-    secondary: {
-      color1: string;
-      color2: string;
-      color3: string;
-      color4: string;
-      color5: string;
-      color6: string;
-      color7: string;
-      color8: string;
-    };
-  }
+interface DefaultTheme {
+  backgroundColor: string;
+  primary: {
+    colora: string;
+    color2: string;
+    color3: string;
+    color4: string;
+    color5: string;
+    color6: string;
+    color7: string;
+  };
+  secondary: {
+    colora: string;
+    color2: string;
+    color3: string;
+    color4: string;
+    color5: string;
+    color6: string;
+    color7: string;
+    color8: string;
+  };
 }
 
 export const theme: DefaultTheme = {
-  backgroundColor: '#ffffff',
+  backgroundColor: '#06092b',
   primary: {
-    color1: '#030f27',
+    colora: '#030f27',
     color2: '#fdbe33',
     color3: '#121518',
     color4: '#00acee',
@@ -37,8 +33,8 @@ export const theme: DefaultTheme = {
     color7: '#3f729b',
   },
   secondary: {
-    color1: '#666666',
-    color2: '#ffffff',
+    colora: '#ffffff',
+    color2: '#666666',
     color3: '#dddddd',
     color4: '#f3f6ff',
     color5: '#999999',
