@@ -9,6 +9,8 @@ module.exports = withPWA({
     disable: !isProd,
   },
 });
+
+//
 // module.exports = {
 //   reactStrictMode: true,
 // };
